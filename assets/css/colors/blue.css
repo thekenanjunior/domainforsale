@@ -1,0 +1,38 @@
+
+.button{
+	border: 2px solid #3567bf;
+	background-color: #3567bf;
+	color: #fff;	
+}
+.button:before{
+	background-color: #fff;
+   border: 2px solid #fff;
+}
+.button:hover, .button:active {
+   color: #000;
+   border: 2px solid #3567bf;
+   background-color: #fff;
+}
+.button.bordered:hover, .button.bordered:active, .button.bordered:focus  {
+   color: #000;
+   border: 2px solid #3567bf;
+   background-color: #fff;
+}
+
+.skill .bar .bar-active, .skill .bar .bar-background, .tse-scrollbar .drag-handle {
+  background-color: #3567bf;
+}
+.side-panel .social .fa a, .side-panel .description i{
+	color: #fff;
+}
+.side-panel i, .social a:hover, .mfValidation, .countdown-period {
+	color: #3567bf;
+}
+
+.side-panel .gallery .gallery-item .description {
+  background-color: rgba(230, 0, 0, 0.5);
+}
+
+.modal .modal-content:before {
+ border: solid 1px #3567bf;
+}
